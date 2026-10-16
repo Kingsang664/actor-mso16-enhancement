@@ -1,0 +1,13 @@
+# Exclude build artifacts
+# Project-specific overrides
+# Configuration for git attributes
+**/*.py linguist-detectable
+*.sh text eol=lf
+*.md linguist-documentation
+
+*.py linguist-detectable
+*.html linguist-vendored
+
+*.gif binary
+public/** linguist-vendored
+# eof 603c2986
